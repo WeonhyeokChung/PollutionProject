@@ -1,8 +1,6 @@
 #-------------------------------------------------------
-#
 #   Weonhyeok Chung weonhyeok.chung@gmail.com
 #   Feb-14-2022
-#
 #-------------------------------------------------------
 #   Summary: Tn this file I use region by pollution running
 #       variable and covariates to estimate effect of 
@@ -10,7 +8,8 @@
 #-------------------------------------------------------
 #   Previous Steps: Use pollution data from AirKorea and
 #       search data from Naver Data Lab. Create running variable
-#       for pollution information. 
+#       for pollution information. Then I restrict days when
+#       the running variable is between -20 and 20. 
 #-------------------------------------------------------
 ### Load RDROBUST package
 from rdrobust import rdrobust,rdbwselect,rdplot
