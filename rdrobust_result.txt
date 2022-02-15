@@ -1,0 +1,24 @@
+Mass points detected in the running variable.
+Mass points detected in the running variable.
+Call: rdrobust
+Number of Observations:                  5831
+Polynomial Order Est. (p):                  1
+Polynomial Order Bias (q):                  2
+Kernel:                            Triangular
+Bandwidth Selection:                    mserd
+Var-Cov Estimator:                         NN
+
+                                Left      Right
+------------------------------------------------
+Number of Observations          2217       3614
+Number of Unique Obs.             19         21
+Number of Effective Obs.         816       1106
+Bandwidth Estimation           5.825      5.825
+Bandwidth Bias                10.041     10.041
+rho (h/b)                       0.58       0.58
+
+Method             Coef.     S.E.   t-stat    P>|t|       95% CI      
+-------------------------------------------------------------------------
+Conventional        0.06    0.035     1.72   8.545e-02    [-0.008, 0.129]
+Robust                 -        -    1.702   8.866e-02    [-0.011, 0.161]
+
